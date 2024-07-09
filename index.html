@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>project_1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/normalize.css" />
+  </head>
+  <body>
+    <!-- Navigation bar  -->
+    <nav class="nav collapsible">
+      <a href="#"
+        ><img src="/Icons Fav/logo.png" class="logo nav__logo" alt=""
+      /></a>
+      <img src="/Icons Fav/menu.png" alt="" class="icon nav__icon" />
+      <ul class="list nav__list">
+        <li class="nav__list__item"><a href="#">home</a></li>
+        <li class="nav__list__item"><a href="#">about</a></li>
+        <li class="nav__list__item"><a href="#">rate us</a></li>
+        <li class="nav__list__item"><a href="#">contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- wall -->
+    <section class="block dark__block skew__left wall">
+      <div class="container grid grid--1x2">
+        <div class="wall__content">
+          <h1 class="wall__heading">smart course</h1>
+          <p class="wall__slogan">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel nisi
+            eligendi non pariatur ut consequuntur repudiandae mollitia? Quas,
+            veritatis! Repellendus illo reiciendis vel excepturi quaerat
+            mollitia aliquid, cupiditate explicabo, labore
+          </p>
+          <button class="btn btn--accent btn--stretched">lets go</button>
+        </div>
+        <img class="wall__image" src="images/content1.jpg" alt="" />
+      </div>
+    </section>
+
+    <!-- input group -->
+    <section class="block container">
+      <div class="input__group">
+        <a href="#">
+          <img class="logo input--logo" src="Icons Fav/logo.png" alt="logo" />
+        </a>
+        <input class="input" type="text" placeholder="Enter course... " />
+        <button class="btn btn--accent input--button">
+          <img src="Icons Fav/search.svg" class="icon search__icon" alt="" />
+          search
+        </button>
+      </div>
+    </section>
+
+    <!-- plans -->
+    <section class="block container block--plans">
+      <div class="grid grid--1x3">
+        <div class="plans">
+          <div class="card card--secondary">
+            <header class="card--header">
+              <h3 class="card--heading">GOLD</h3>
+              <span class="plan--price">599 Rs</span>
+              <span class="billing__cycle">/month</span>
+              <span class="badge badge--secondary badge--small">10%off</span>
+              <span class="description">Lorem ipsum dolor</span>
+            </header>
+            <div class="card--body">
+              <ul class="list list--tick">
+                <li>Limited Classes</li>
+                <li>1 Year Duration</li>
+                <li>Free Books</li>
+                <li>Free Headphones</li>
+              </ul>
+              <button class="btn btn--outline btn--block">BUY NOW</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="plans">
+          <div class="card card--primary">
+            <header class="card--header">
+              <h3 class="card--heading">PLATINUM</h3>
+              <span class="plan--price">799 Rs</span>
+              <span class="billing__cycle">/month</span>
+              <span class="badge badge--primary badge--small">10% off</span>
+              <span class="description">Lorem ipsum dolor</span>
+            </header>
+            <div class="card--body">
+              <ul class="list list--tick">
+                <li>Unlimited Classes</li>
+                <li>1 Year Duration</li>
+                <li>Free Books</li>
+                <li>Free Headphones</li>
+              </ul>
+              <button class="btn btn--outline btn--block">BUY NOW</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="plans">
+          <div class="card card--secondary">
+            <header class="card--header">
+              <h3 class="card--heading">SILVER</h3>
+              <span class="plan--price">399 Rs</span>
+              <span class="billing__cycle">/month</span>
+              <span class="badge badge--secondary badge--small">10%off</span>
+              <span class="description">Lorem ipsum dolor</span>
+            </header>
+            <div class="card--body">
+              <ul class="list list--tick">
+                <li>Limited Classes</li>
+                <li>1 Year Duration</li>
+                <li>Free Books</li>
+                <li>Free Bag</li>
+              </ul>
+              <button class="btn btn--outline btn--block">BUY NOW</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- course details -->
+    <section class="block container course__block">
+      <div class="course__details__group">
+        <div class="grid grid--1x2 course__grid">
+          <div class="course__details">
+            <img
+              src="images/HTML5_logo_and_wordmark.svg"
+              class="icon course__image"
+              alt=""
+            />
+            <h3>Lorem ipsum dolor sit amet.</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi
+              provident odio dolor sit et officia? Aspernatur cumque nobis vel
+              asperiores!
+            </p>
+          </div>
+          <img src="images/content6.jpg" class="course__wallpaper" alt="" />
+        </div>
+      </div>
+
+      <div class="course__details__group">
+        <div class="grid grid--1x2 course__grid featured__grid">
+          <div class="course__details">
+            <img
+              src="images/CSS3_logo_and_wordmark.svg"
+              class="icon course__image"
+              alt=""
+            />
+            <h3>Lorem ipsum dolor sit amet.</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi
+              provident odio dolor sit et officia? Aspernatur cumque nobis vel
+              asperiores!
+            </p>
+          </div>
+          <div>
+            <img src="images/content4.jpg" class="course__wallpaper" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="course__details__group">
+        <div class="grid grid--1x2 course__grid">
+          <div class="course__details">
+            <img
+              src="images/JavaScript-logo.png"
+              class="icon course__image"
+              alt=""
+            />
+            <h3>Lorem ipsum dolor sit</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi
+              provident
+            </p>
+          </div>
+          <img src="images/content5.jpg" class="course__wallpaper" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="block dark__block">
+      <div class="container grid grid--1x5">
+        <section class="footer__section">
+          <div class="collapsible__footer">
+            <div class="footer__header">
+              <h2 class="footer__heading">courses</h2>
+              <img
+                src="Icons Fav/chevron.svg"
+                alt=""
+                class="icon footer__chevron"
+              />
+            </div>
+            <div class="footer__list">
+              <ul class="list">
+                <li class="footer__items"><a href="#">Html5</a></li>
+                <li class="footer__items"><a href="#">CSS3</a></li>
+                <li class="footer__items"><a href="#">JavaScript</a></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="footer__section">
+          <div class="collapsible__footer">
+            <div class="footer__header">
+              <h2 class="footer__heading">company</h2>
+              <img
+                src="Icons Fav/chevron.svg"
+                alt=""
+                class="icon footer__chevron"
+              />
+            </div>
+            <div class="footer__list">
+              <ul class="list">
+                <li class="footer__items"><a href="#"> item1</a></li>
+                <li class="footer__items"><a href="#"> item2</a></li>
+                <li class="footer__items"><a href="#"> item3</a></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="footer__section">
+          <div class="collapsible__footer">
+            <div class="footer__header">
+              <h2 class="footer__heading">support</h2>
+              <img
+                src="Icons Fav/chevron.svg"
+                alt=""
+                class="icon footer__chevron"
+              />
+            </div>
+            <div class="footer__list">
+              <ul class="list">
+                <li class="footer__items"><a href="#"> item1</a></li>
+                <li class="footer__items"><a href="#"> item2</a></li>
+                <li class="footer__items"><a href="#"> item3</a></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="footer__section">
+          <div class="collapsible__footer">
+            <div class="footer__header">
+              <h3 class="footer__heading">products</h3>
+              <img
+                src="Icons Fav/chevron.svg"
+                alt=""
+                class="icon footer__chevron"
+              />
+            </div>
+            <div class="footer__list">
+              <ul class="list">
+                <li class="footer__items"><a href="#"> item1</a></li>
+                <li class="footer__items"><a href="#"> item2</a></li>
+                <li class="footer__items"><a href="#"> item3</a></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <div class="brand__footer footer__section">
+          <a href="#">
+            <img class="logo footer__logo" src="Icons Fav/logo.png" alt="" />
+          </a>
+          <p class="copyright">copyright 2023</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- script -->
+    <!-- nav -->
+    <script>
+      const trigger = document.querySelector(".collapsible");
+      const toggle = document.querySelector(".nav__icon");
+      toggle.addEventListener("click", function () {
+        trigger.classList.toggle("collapsible--extended");
+      });
+      /* Footer */
+      const target = document.querySelectorAll(".collapsible__footer");
+      target.forEach((element) => {
+        element.addEventListener("click", function () {
+          this.classList.toggle("collapsible--extended");
+        });
+      });
+    </script>
+  </body>
+</html>
